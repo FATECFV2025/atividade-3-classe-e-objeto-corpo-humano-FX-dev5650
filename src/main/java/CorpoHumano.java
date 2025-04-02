@@ -29,7 +29,7 @@ public class CorpoHumano {
         return volume;
     }
 
-    private void setVolume(float volume) {
+    public void setVolume(float volume) {
         this.volume = volume;
     }
 
