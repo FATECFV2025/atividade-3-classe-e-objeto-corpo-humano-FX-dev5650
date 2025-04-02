@@ -62,3 +62,34 @@
 ## Feedback 📨
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
+
+## Respostas
+
+
+Na classe Corpo_Humano inclua a linha c1.massa = "2";
+logo depois de instanciar o objeto c1. Qual foi a ocorrência?
+Qual a conclusão sobre o que aconteceu?
+
+R: dois erros o primeiro é que ele esperava os três parametros no construtor
+o segundo problema é que o atributo está privado então não é possivel fazer
+o acesso direto na variavel fora que a forma como foi descrevida é do tipo String ("2")
+
+
+        
+Na classe CorpoHumano altere a linha private float Massa para public float Massa;
+qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R:Agora o atributo está publico, oque permite fazer o acesso direto na variavel atraves
+qualquer classe poré ainda continua dando erro devido aos parametros do construtor
+e tambem o tipo de dado inserido (foi inserido uma String aonde se espera um valor float
+
+         
+
+        
+Na classe Corpo_Humano altere a linha public setVolume (float volume) para
+private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão
+sobre o que aconteceu?
+
+R: o metodo teve seu acesso mudado agora só é possivel utilizar o metodo dentro
+da classe CorpoHumano
+         
